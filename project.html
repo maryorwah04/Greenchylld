@@ -72,7 +72,7 @@
                   <div class="menu-testing-menu-container">
                     <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                       <li class="menu-item"><a href="index-2.html">Home</a></li>
-                      <li class="menu-item current-menu-item"><a href="about.html">About</a></li>
+                      <li class="menu-item"><a href="about.html">About</a></li>
                       <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Services</a>
                         <ul class="sub-menu">
                           <li class="menu-item"><a href="service.html">All Services</a></li>
@@ -105,7 +105,7 @@
                           <li class="menu-item"><a href="comingsoon.html">Comingsoon</a></li>
                         </ul>
                       </li>
-                      <li class="menu-item"><a href="project.html">Projects</a></li>
+                      <li class="menu-item current-menu-item"><a href="project.html">Projects</a></li>
                       <li class="menu-item"><a href="blog.html">Blog</a></li>
                       <li class="menu-item"><a href="contact.html">Contact</a></li>
                     </ul>
@@ -125,8 +125,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h1 class="main-title-primary">About Us</h1>
-            <h4 class="main-title-secondary">What we do and who we are.</h4>
+            <h1 class="main-title-primary">Projects</h1>
+            <h4 class="main-title-secondary">Our awesome buildings and projects.</h4>
           </div><!-- .col-## -->
         </div><!-- .row -->
       </div><!-- .container -->
@@ -140,7 +140,7 @@
           <div class="col-md-12">
             <ol class="breadcrumb">
               <li><a href="#">Home</a></li>
-              <li class="active">About</li>
+              <li class="active">Projects</li>
             </ol>
           </div><!-- .col-md-12 -->
         </div><!-- .row -->
@@ -151,139 +151,108 @@
     <!-- begin:site-main -->
     <div class="site-main">
       <!-- begin:content-section -->
-      <div class="about content-section">
+      <div class="content-section">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
-              <img src="assets/img/img-content-04.jpg" class="img-responsive cast-shadow">
-            </div><!-- .col-## -->
-            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 padd-40-top">
-              <p>Construction, Inc. traces its roots back to 2005 in Orange and since then have never looked back. With thousands of successful projects under our belt, we can proudly say that we are one.</p>
-              <p>For more than 10 years, Construction has offered a wide range of construction services in Colorado, many other cities of United States and around the world. We strive to maintain.<br>We aim to eliminate the task of dividing your project between different architecture and construction company.</p>
+            <div class="col-md-12">
+              <div class="entry-content">
+                <ul class="work-filter">
+                  <li class="active" data-filter="*"><a href="#">All works</a></li>
+                  <li data-filter=".buildings"><a href="#buildings">Buildings</a></li>
+                  <li data-filter=".interior-design"><a href="#interior-design">Interior Design</a></li>
+                  <li data-filter=".isolation"><a href="#isolation">Isolation</a></li>
+                  <li data-filter=".house-renovation"><a href="#house-renovation">House Renovation</a></li>
+                </ul><!-- .work-filter -->
+
+                <ul class="work-grid">
+                  <li class="work-item buildings">
+                    <a href="assets/img/img-work-01.jpg" title="Avenue Hotels" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-01.jpg" alt="Avenue Hotels">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Avenue Hotels</h4>
+                        <span class="work-item-desc">Buildings</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                  <li class="work-item interior-design">
+                    <a href="assets/img/img-work-02.jpg" title="Mark Bedroom" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-02.jpg" alt="Mark Bedroom">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Mark Bedroom</h4>
+                        <span class="work-item-desc">Interior Design</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                  <li class="work-item buildings">
+                    <a href="assets/img/img-work-03.jpg" title="Edu Hostel" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-03.jpg" alt="Edu Hostel">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Edu Hostel</h4>
+                        <span class="work-item-desc">Buildings</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                  <li class="work-item isolation house-renovation">
+                    <a href="assets/img/img-work-04.jpg" title="Alan Home" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-04.jpg" alt="Alan Home">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Alan Home</h4>
+                        <span class="work-item-desc">Isolation</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                  <li class="work-item interior-design house-renovation">
+                    <a href="assets/img/img-work-05.jpg" title="Jannet Home" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-05.jpg" alt="Jannet Home">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Jannet Home</h4>
+                        <span class="work-item-desc">House Renovation</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                  <li class="work-item design photography">
+                    <a href="assets/img/img-work-06.jpg" title="Papa Ron's Restaurant" class="image-lightbox">
+                      <div class="work-item-image">
+                        <img src="assets/img/img-work-06.jpg" alt="Papa Ron's Restaurant">
+                      </div><!-- .work-item-image -->
+                      <div class="work-item-info">
+                        <h4 class="work-item-title">Papa Ron's Restaurant</h4>
+                        <span class="work-item-desc">Interior Design</span>
+                      </div><!-- .work-item-info -->
+                    </a>
+                  </li><!-- .work-item -->
+                </ul><!-- .work-grid -->
+              </div><!-- .entry-content -->
             </div><!-- .col-## -->
           </div><!-- .row -->
         </div><!-- .container -->
-      </div><!-- .about -->
+      </div><!-- .content-section -->
       <!-- end:content-section -->
-
-      <!-- begin:team -->
-      <div id="team" class="team content-section bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="team-item">
-                <div class="team-item-image">
-                  <img src="assets/img/img-team-01.jpg" alt="team member">
-                  <div class="team-item-detail">
-                    <h5 class="team-item-title">Contact</h5>
-                    <span><strong>Tel: 899-500-2120</strong></span><br>
-                    <span><strong>ceo@construction.me</strong></span>
-                  </div><!-- .team-detail -->
-                </div><!-- .team-image -->
-                <h4 class="team-item-name">Celsea Islan</h4>
-                <h6 class="team-item-name">CEO</h6>
-                <span class="team-item-role">A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</span>
-              </div><!-- .team-item -->
-            </div><!-- .col-## -->
-
-            <div class="col-sm-4">
-              <div class="team-item">
-                <div class="team-item-image">
-                  <img src="assets/img/img-team-02.jpg" alt="team member">
-                  <div class="team-item-detail">
-                    <h5 class="team-item-title">Contact</h5>
-                    <span><strong>Tel: 856-434-3457</strong></span><br>
-                    <span><strong>manager@construction.me</strong></span>
-                  </div><!-- .team-detail -->
-                </div><!-- .team-image -->
-                <h4 class="team-item-name">Roberto Hongo</h4>
-                <h6>Project Manager</h6>
-                <span class="team-item-role">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed.</span>
-              </div><!-- .team-item -->
-            </div><!-- .col-## -->
-
-            <div class="col-sm-4">
-              <div class="team-item">
-                <div class="team-item-image">
-                  <img src="assets/img/img-team-03.jpg" alt="team member">
-                  <div class="team-item-detail">
-                    <h5 class="team-item-title">Contact</h5>
-                    <span><strong>Tel: 274-724-4150</strong></span><br>
-                    <span><strong>architect@construction.me</strong></span>
-                  </div><!-- .team-detail -->
-                </div><!-- .team-image -->
-                <h4 class="team-item-name">Legimin Raharjo</h4>
-                <h6>Architect</h6>
-                <span class="team-item-role">Balancing a composition involves arranging both positive elements and negative space.</span>
-              </div><!-- .team-item -->
-            </div><!-- .col-## -->
-          </div><!-- .row -->
-        </div><!-- container -->
-      </div><!-- #team -->
-      <!-- end:team -->
-
-      <!-- begin:facts -->
-      <div id="facts" class="facts content-section bg-theme">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="fact-item">
-                <span class="fact-item-number">
-                  <span class="pe-7s-alarm icon"></span>
-                  <span class="number number-alt">10+</span>
-                </span>
-                <h5 class="fact-item-info">Year Experience</h5>
-              </div><!-- .fact-item -->
-            </div><!-- .col-## -->
-
-            <div class="col-md-3 col-sm-6">
-              <div class="fact-item">
-                <span class="fact-item-number">
-                  <span class="pe-7s-medal icon"></span>
-                  <span class="number">16</span>
-                </span>
-                <h5 class="fact-item-info">Awards</h5>
-              </div><!-- .fact-item -->
-            </div><!-- .col-## -->
-
-            <div class="col-md-3 col-sm-6">
-              <div class="fact-item">
-                <span class="fact-item-number">
-                  <span class="pe-7s-tools icon"></span>
-                  <span class="number">549</span>
-                </span>
-                <h5 class="fact-item-info">Projects Done</h5>
-              </div><!-- .fact-item -->
-            </div><!-- .col-## -->
-
-            <div class="col-md-3 col-sm-6">
-              <div class="fact-item">
-                <span class="fact-item-number">
-                  <span class="pe-7s-like2 icon"></span>
-                  <span class="number">183</span>
-                </span>
-                <h5 class="fact-item-info">Great Customers</h5>
-              </div><!-- .fact-item -->
-            </div><!-- .col-## -->
-          </div><!-- .row -->
-        </div><!-- container -->
-      </div><!-- #facts -->
-      <!-- end:facts -->
     </div><!-- .site-main -->
     <!-- end:site-main -->
 
-    <!-- begin:footer -->
+  	<!-- begin:footer -->
     <footer id="colophon" class="site-footer bg-black" role="contentinfo">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <section class="widget">
               <img src="assets/img/img-logo-footer.png" alt="bootstrap theme for construction companies" class="img-responsive marg-20-btm marg-20-top">
               <p>Construction company based on Orange, California. Construction was very sufficient in maintaining the integrity of project in terms of planning, scheduling, cost and quality.</p>
             </section><!-- .widget -->
           </div><!-- .col-## -->
 
-          <div class="col-md-2 col-sm-6 col-md-offset-1 col-sm-offset-0">
+          <div class="col-md-2 col-sm-6">
             <section class="widget">
               <h3 class="widget-title">Our Company</h3>
               <ul>
